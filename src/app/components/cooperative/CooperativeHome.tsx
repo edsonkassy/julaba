@@ -15,7 +15,7 @@ import {
   AchatsGroupesModal,
   VentesGroupeesModal,
 } from './CooperativeModals';
-import tantieSagesseImgCooperative from 'figma:asset/121e6ffbfa2da9c30fe3d5ebdc24e581704d8241.png';
+import tantieSagesseImgCooperative from '../../../assets/121e6ffbfa2da9c30fe3d5ebdc24e581704d8241.png';
 
 export function CooperativeHome() {
   const navigate = useNavigate();

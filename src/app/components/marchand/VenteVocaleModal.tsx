@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router';
 import { useApp } from '../../contexts/AppContext';
 import { useUser } from '../../contexts/UserContext';
 import { useStock } from '../../contexts/StockContext';
-import tantieSagesseImg from 'figma:asset/c503d0acc72377dbc52462a00eea2a8e1e249e38.png';
+import tantieSagesseImg from '../../../assets/c503d0acc72377dbc52462a00eea2a8e1e249e38.png';
 
 interface VenteVocaleModalProps {
   isOpen: boolean;

@@ -5,7 +5,7 @@ import { Navigation } from '../layout/Navigation';
 import { getRoleColor } from '../../config/roleConfig';
 
 // Import image Tantie Sagesse
-import tantieSagesseImg from 'figma:asset/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
+import tantieSagesseImg from '../../../assets/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
 
 interface UniversalPageWrapperProps {
   role: 'marchand' | 'producteur' | 'cooperative' | 'institution' | 'identificateur';

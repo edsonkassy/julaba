@@ -7,10 +7,10 @@ import { useUser } from '../../contexts/UserContext';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { useBackOffice, MOCK_BO_USERS, BORoleType } from '../../contexts/BackOfficeContext';
-import logoOrange from 'figma:asset/d4e25a0b05d3b69e7e79f65efbd03a87d4b68385.png';
-import logoTonDje from 'figma:asset/c7cc70789b435fa844a3d9eb596e29ecf3d4f80c.png';
-import logoJulaba from 'figma:asset/54872e2911223a687a64213d3c9b5c2dc0d3d160.png';
-import tantieSagesseImg from 'figma:asset/41b92fac963891d143c08b39664bce7342b10a05.png';
+import logoOrange from '../../../assets/d4e25a0b05d3b69e7e79f65efbd03a87d4b68385.png';
+import logoTonDje from '../../../assets/c7cc70789b435fa844a3d9eb596e29ecf3d4f80c.png';
+import logoJulaba from '../../../assets/54872e2911223a687a64213d3c9b5c2dc0d3d160.png';
+import tantieSagesseImg from '../../../assets/41b92fac963891d143c08b39664bce7342b10a05.png';
 
 const BO_PRIMARY = '#E6A817';
 const BO_DARK = '#3B3C36';

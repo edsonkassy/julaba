@@ -17,7 +17,7 @@ import {
   HelpCircle, Star, Heart, Lightbulb,
 } from 'lucide-react';
 import { useTantie } from '../../hooks/useTantie';
-import tantieSagesseImg from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseImg from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 import type { TantieMessage, TantieEmotion, TantieAction } from '../../types/tantie.types';
 
 // ============================================================================

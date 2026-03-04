@@ -17,7 +17,7 @@ import {
   ScoreModal,
   ResumeModal,
 } from './MarchandModals';
-import tantieSagesseImgMarchand from 'figma:asset/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
+import tantieSagesseImgMarchand from '../../../assets/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
 
 export function MarchandHome() {
   const navigate = useNavigate();

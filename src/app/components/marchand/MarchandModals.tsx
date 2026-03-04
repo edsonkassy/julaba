@@ -5,17 +5,17 @@ import { useApp } from '../../contexts/AppContext';
 import { useNavigate } from 'react-router';
 
 // Import des images de billets CFA
-import billet500 from 'figma:asset/b2d48685cf36b9b0ee1dc90888ad064716ce9a36.png';
-import billet1000 from 'figma:asset/17233155e5ff734b592dc9de8f379384df82f47b.png';
-import billet2000 from 'figma:asset/e1d816e66c34d75f62e5b541b87428ef8bfb941e.png';
-import billet5000 from 'figma:asset/8f6d5122b50aeda0ef83b01cd66e776da1d61995.png';
-import billet10000 from 'figma:asset/51c36f41e1771b2eed9d1e549c313b2aef1180e4.png';
+import billet500 from '../../../assets/b2d48685cf36b9b0ee1dc90888ad064716ce9a36.png';
+import billet1000 from '../../../assets/17233155e5ff734b592dc9de8f379384df82f47b.png';
+import billet2000 from '../../../assets/e1d816e66c34d75f62e5b541b87428ef8bfb941e.png';
+import billet5000 from '../../../assets/8f6d5122b50aeda0ef83b01cd66e776da1d61995.png';
+import billet10000 from '../../../assets/51c36f41e1771b2eed9d1e549c313b2aef1180e4.png';
 
 // Import des images de pièces CFA
-import piece25 from 'figma:asset/bbee0eb0f81c6fe238ec6cf7c5ebfbc06f28811d.png';
-import piece50 from 'figma:asset/40cff97daad841504be3bdd1ffe2beaae8b1f490.png';
-import piece100 from 'figma:asset/568afa237d9314d49693e52f27dc76f0708eb39c.png';
-import piece200 from 'figma:asset/273eef1501206a5916a4c49b5adf249f65c944c2.png';
+import piece25 from '../../../assets/bbee0eb0f81c6fe238ec6cf7c5ebfbc06f28811d.png';
+import piece50 from '../../../assets/40cff97daad841504be3bdd1ffe2beaae8b1f490.png';
+import piece100 from '../../../assets/568afa237d9314d49693e52f27dc76f0708eb39c.png';
+import piece200 from '../../../assets/273eef1501206a5916a4c49b5adf249f65c944c2.png';
 
 // ✨ ==== COMPOSANTS DE BASE ==== ✨
 

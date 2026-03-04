@@ -15,7 +15,7 @@ import {
   CycleModal,
   DeclareRecolteModal,
 } from './ProducteurModals';
-import tantieSagesseImgProducteur from 'figma:asset/ea74d578f6b563853423b6d08f6cc6dcb454702f.png';
+import tantieSagesseImgProducteur from '../../../assets/ea74d578f6b563853423b6d08f6cc6dcb454702f.png';
 import { buildAlertesProducteur } from '../shared/AlertesBanner';
 
 export function ProducteurHome() {

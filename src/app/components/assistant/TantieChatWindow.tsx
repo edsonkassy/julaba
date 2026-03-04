@@ -19,7 +19,7 @@ import {
 import { useTantie } from '../../hooks/useTantie';
 import { TantieMessageBubble } from './TantieMessageBubble';
 import { TantieInputBar } from './TantieInputBar';
-import tantieSagesseImg from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseImg from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 
 const TANTIE_GRADIENT = 'linear-gradient(135deg, #5B21B6 0%, #7C3AED 50%, #A855F7 100%)';
 const TANTIE_COLOR    = '#7C3AED';

@@ -29,7 +29,7 @@ import {
 import { useBackOffice } from '../../contexts/BackOfficeContext';
 import { useTantie } from '../../hooks/useTantie';
 import { toast } from 'sonner';
-import tantieSagesseImg from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseImg from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 import {
   ACTION_REGISTRY,
   getActionsForRole,

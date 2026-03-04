@@ -35,7 +35,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-import tantieSagesseImg from 'figma:asset/267116a23e4c64fcb00a127e2e64d1ebe888d92e.png';
+import tantieSagesseImg from '../../../assets/267116a23e4c64fcb00a127e2e64d1ebe888d92e.png';
 
 const PRIMARY_COLOR = '#712864';
 

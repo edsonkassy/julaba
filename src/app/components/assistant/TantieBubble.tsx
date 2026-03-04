@@ -10,7 +10,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, X, MessageCircle } from 'lucide-react';
 import { useTantieExtended } from '../../hooks/useTantie';
-import tantieSagesseImg from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseImg from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 
 // Couleur signature de Tantie Sagesse
 const TANTIE_COLOR = '#7C3AED';

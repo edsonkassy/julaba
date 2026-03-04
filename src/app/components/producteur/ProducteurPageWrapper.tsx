@@ -4,7 +4,7 @@ import { Mic, X, MessageCircle, Edit, Mic2 } from 'lucide-react';
 import { Navigation } from '../layout/Navigation';
 
 // Import image Tantie Sagesse
-import tantieSagesseImg from 'figma:asset/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
+import tantieSagesseImg from '../../../assets/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
 
 interface ProducteurPageWrapperProps {
   children: ReactNode;

@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { Volume2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import bgMarket from 'figma:asset/48e145369a8527cd9a3a469a88f0ca0455a0c874.png';
-import bgMarketplace from 'figma:asset/6ee6f5bd5f4c9f1cb2b98f0e26b90dd98e7b2dd6.png';
-import bgTantie from 'figma:asset/a2a68416ef5df15ab6bede30c533e5b62616a307.png';
-import bgOffline from 'figma:asset/a1e7b24524a6956fb901c5d7c7869acd4fd54712.png';
-import logoJulaba from 'figma:asset/cbc59d485b8bea3d7ee028c4c7aee05023d7e2d9.png';
-import bgCotisations from 'figma:asset/120a4219ca3ac09ca18268496eea4203b78668e7.png';
-import logoSplash from 'figma:asset/54872e2911223a687a64213d3c9b5c2dc0d3d160.png';
-import bgVirtualMarket from 'figma:asset/c8aec7f17fcb212135a5a1f30279b7204eebd363.png';
+import bgMarket from '../../../assets/48e145369a8527cd9a3a469a88f0ca0455a0c874.png';
+import bgMarketplace from '../../../assets/6ee6f5bd5f4c9f1cb2b98f0e26b90dd98e7b2dd6.png';
+import bgTantie from '../../../assets/a2a68416ef5df15ab6bede30c533e5b62616a307.png';
+import bgOffline from '../../../assets/a1e7b24524a6956fb901c5d7c7869acd4fd54712.png';
+import logoJulaba from '../../../assets/cbc59d485b8bea3d7ee028c4c7aee05023d7e2d9.png';
+import bgCotisations from '../../../assets/120a4219ca3ac09ca18268496eea4203b78668e7.png';
+import logoSplash from '../../../assets/54872e2911223a687a64213d3c9b5c2dc0d3d160.png';
+import bgVirtualMarket from '../../../assets/c8aec7f17fcb212135a5a1f30279b7204eebd363.png';
 
 // ONBOARDING V3 - ANIMATIONS DYNAMIQUES 2025
 export function Onboarding() {

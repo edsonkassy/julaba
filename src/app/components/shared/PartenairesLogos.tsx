@@ -1,4 +1,4 @@
-import partenairesSrc from 'figma:asset/52d0dbbf72ccc3632bb1d6d757edeedfc28c77ec.png';
+import partenairesSrc from '../../../assets/52d0dbbf72ccc3632bb1d6d757edeedfc28c77ec.png';
 import { motion } from 'motion/react';
 
 /**

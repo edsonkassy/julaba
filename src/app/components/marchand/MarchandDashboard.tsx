@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card } from '../ui/card';
-import tantieSagesseImg from 'figma:asset/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
+import tantieSagesseImg from '../../../assets/64c3ca539d2561b4696443c44d5985c07aa02f42.png';
 import { getPageClasses, RESPONSIVE_IMAGES, RESPONSIVE_GRIDS } from '../../config/responsive';
 
 interface MarchandDashboardProps {

@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card } from '../ui/card';
-import tantieSagesseImg from 'figma:asset/ea74d578f6b563853423b6d08f6cc6dcb454702f.png';
+import tantieSagesseImg from '../../../assets/ea74d578f6b563853423b6d08f6cc6dcb454702f.png';
 import { RoleConfig } from '../../config/roleConfig';
 import { CompactProfileCard } from './CompactProfileCard';
 import { WalletCard } from '../wallet/WalletCard';

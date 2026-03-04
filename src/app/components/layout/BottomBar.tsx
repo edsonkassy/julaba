@@ -10,11 +10,11 @@ import { useNotifications } from '../../contexts/NotificationsContext';
 import { useUser } from '../../contexts/UserContext';
 
 // Import des images Tantie Sagesse
-import tantieSagesseIcon from 'figma:asset/eada83dd0866d60fe27b7763b60aab0af2017c57.png';
-import tantieSagesseCooperativeIcon from 'figma:asset/41b92fac963891d143c08b39664bce7342b10a05.png';
-import tantieSagesseProducteurIcon from 'figma:asset/446359144b84ee1f679d973dae614dacdd487919.png';
-import tantieSagesseInstitutionIcon from 'figma:asset/4f11fa5a013f2ebb2c989930fff2e8c3dae4b16e.png';
-import tantieSagesseIdentificateurIcon from 'figma:asset/261ed5db87103937dbc16a509a9655358175074d.png';
+import tantieSagesseIcon from '../../../assets/eada83dd0866d60fe27b7763b60aab0af2017c57.png';
+import tantieSagesseCooperativeIcon from '../../../assets/41b92fac963891d143c08b39664bce7342b10a05.png';
+import tantieSagesseProducteurIcon from '../../../assets/446359144b84ee1f679d973dae614dacdd487919.png';
+import tantieSagesseInstitutionIcon from '../../../assets/4f11fa5a013f2ebb2c989930fff2e8c3dae4b16e.png';
+import tantieSagesseIdentificateurIcon from '../../../assets/261ed5db87103937dbc16a509a9655358175074d.png';
 
 interface BottomBarProps {
   role: 'marchand' | 'producteur' | 'cooperative' | 'institution' | 'identificateur';

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Volume2, Users, BarChart3, TrendingUp, ArrowRight, ChevronDown, ShieldCheck } from 'lucide-react';
 import { Card } from '../ui/card';
 import { Button } from '../ui/button';
-import tantieSagesseImg from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseImg from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 import { RESPONSIVE_IMAGES, RESPONSIVE_GRIDS } from '../../config/responsive';
 
 interface AdministrateurDashboardProps {

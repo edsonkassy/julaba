@@ -9,7 +9,7 @@ import { Card } from '../ui/card';
 import { Navigation } from '../layout/Navigation';
 import { FormulaireNouveauDossier } from './FormulaireNouveauDossier';
 import { ScoreResumeCard } from '../shared/ScoreResumeCard';
-import tantieSagesseImg from 'figma:asset/82c93653bb1eda722d8188565757dfef53e2f469.png';
+import tantieSagesseImg from '../../../assets/82c93653bb1eda722d8188565757dfef53e2f469.png';
 
 const PRIMARY_COLOR = '#9F8170';
 

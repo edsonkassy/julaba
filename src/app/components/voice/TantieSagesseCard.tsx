@@ -1,7 +1,7 @@
 import React from 'react';
 import { Mic } from 'lucide-react';
 import { motion } from 'motion/react';
-import tantieSagesseAvatar from 'figma:asset/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
+import tantieSagesseAvatar from '../../../assets/c57c6b035a1cf2a547f2ddf8ab7ca6884bc3980e.png';
 
 interface TantieSagesseCardProps {
   onClick?: () => void;
