@@ -49,40 +49,44 @@ export function Login() {
 
   const mockUsers = getAllMockUsers();
 
-  // Charger les voix au démarrage
   useEffect(() => {
-    const loadVoices = () => {
-      useEffect(() => {
-  if (typeof window !== "undefined" && window.speechSynthesis) {
-    const voices = window.speechSynthesis.getVoices();
-    console.log(voices);
-  }
-}, []);
+  const loadVoices = () => {
+    if (typeof window !== "undefined" && window.speechSynthesis) {
+      const voices = window.speechSynthesis.getVoices();
+
+      console.log(voices);
+
       if (voices.length > 0) {
         voicesRef.current = voices;
         setVoicesLoaded(true);
-        console.log('✅ Voix chargées:', voices.length);
-        
-        // Log des voix françaises disponibles
-        const frenchVoices = voices.filter(v => v.lang.startsWith('fr'));
-        console.log('🇫🇷 Voix françaises:', frenchVoices.length, frenchVoices.map(v => v.name));
+
+        console.log("✅ Voix chargées:", voices.length);
+
+        // Voix françaises
+        const frenchVoices = voices.filter((v) => v.lang.startsWith("fr"));
+        console.log(
+          "🇫🇷 Voix françaises:",
+          frenchVoices.length,
+          frenchVoices.map((v) => v.name)
+        );
       }
-    };
-
-    // Charger immédiatement
-    loadVoices();
-
-    // Écouter l'événement de chargement des voix
-    if (window.speechSynthesis) {
-      window.speechSynthesis.onvoiceschanged = loadVoices;
     }
+  };
 
-    return () => {
-      if (window.speechSynthesis) {
-        window.speechSynthesis.onvoiceschanged = null;
-      }
-    };
-  }, []);
+  // Charger immédiatement
+  loadVoices();
+
+  // Quand les voix deviennent disponibles
+  if (window.speechSynthesis) {
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+  }
+
+  return () => {
+    if (window.speechSynthesis) {
+      window.speechSynthesis.onvoiceschanged = null;
+    }
+  };
+}, []);
 
   // Fonction locale pour parler ET afficher le texte
   const speakWithText = (message: string) => {

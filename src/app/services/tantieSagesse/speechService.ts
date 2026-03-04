@@ -68,12 +68,9 @@ let isSpeaking = false;
 function selectBestVoice(lang: string): SpeechSynthesisVoice | null {
   if (!isTTSSupported()) return null;
 
-  useEffect(() => {
   if (typeof window !== "undefined" && window.speechSynthesis) {
     const voices = window.speechSynthesis.getVoices();
-    console.log(voices);
   }
-}, []);
 
   // Priorité : voix française locale, puis voix française en ligne
   const priorities = [
