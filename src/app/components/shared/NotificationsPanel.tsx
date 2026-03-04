@@ -4,7 +4,7 @@
  * Mobile : swipe gauche pour marquer lu. Web : dropdown scrollable.
  */
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'motion/react';
 import {
   Bell,

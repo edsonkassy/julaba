@@ -12,6 +12,7 @@
 // ============================================================================
 // TYPES
 // ============================================================================
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 export interface SpeechConfig {
   lang: string;
