@@ -68,7 +68,12 @@ let isSpeaking = false;
 function selectBestVoice(lang: string): SpeechSynthesisVoice | null {
   if (!isTTSSupported()) return null;
 
-  const voices = window.speechSynthesis.getVoices();
+  useEffect(() => {
+  if (typeof window !== "undefined" && window.speechSynthesis) {
+    const voices = window.speechSynthesis.getVoices();
+    console.log(voices);
+  }
+}, []);
 
   // Priorité : voix française locale, puis voix française en ligne
   const priorities = [
@@ -91,7 +96,12 @@ export function preloadVoices(): Promise<void> {
   return new Promise(resolve => {
     if (!isTTSSupported()) { resolve(); return; }
 
+    useEffect(() => {
+  if (typeof window !== "undefined" && window.speechSynthesis) {
     const voices = window.speechSynthesis.getVoices();
+    console.log(voices);
+  }
+}, []);
     if (voices.length > 0) { resolve(); return; }
 
     window.speechSynthesis.onvoiceschanged = () => resolve();

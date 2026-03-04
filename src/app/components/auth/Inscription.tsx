@@ -64,7 +64,12 @@ export function Inscription() {
         
         utteranceRef.current = utterance;
         
-        const voices = window.speechSynthesis.getVoices();
+        useEffect(() => {
+  if (typeof window !== "undefined" && window.speechSynthesis) {
+    const voices = window.speechSynthesis.getVoices();
+    console.log(voices);
+  }
+}, []);
         const frenchVoice = voices.find(voice => voice.lang.startsWith('fr'));
         if (frenchVoice) {
           utterance.voice = frenchVoice;

@@ -52,7 +52,12 @@ export function Login() {
   // Charger les voix au démarrage
   useEffect(() => {
     const loadVoices = () => {
-      const voices = window.speechSynthesis.getVoices();
+      useEffect(() => {
+  if (typeof window !== "undefined" && window.speechSynthesis) {
+    const voices = window.speechSynthesis.getVoices();
+    console.log(voices);
+  }
+}, []);
       if (voices.length > 0) {
         voicesRef.current = voices;
         setVoicesLoaded(true);
